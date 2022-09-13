@@ -1,7 +1,7 @@
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 new_message = ''
 message = input('Please enter the secret message: ')
-key = input('Enter a secret numeric key: ')
+key = input('Enter a secret numeric key between (1-26): ')
 key = int(key)
 for character in message:
     if character in alphabet:
